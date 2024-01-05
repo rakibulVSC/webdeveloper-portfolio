@@ -1,0 +1,37 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    border-radius:5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font: weight 700;
+}
+.hot{
+    color:#181818 ;
+    font-size:45px ;
+    font-weight:1000;
+    line-height:normal;
+}
+nav > ul{
+display: flex;
+align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right:50px;
+}
+nav a {
+    text-decoration:none;
+    color:#474747;
+}
